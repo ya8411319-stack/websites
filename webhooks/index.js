@@ -1,4 +1,4 @@
-console.log(`CWD: ${process.cwd()}`)
+1f8c82059df923e355cbb3a38eb27571810db161console.log(`CWD: ${process.cwd()}`)
 
 const { port, secret, sites, cf_email, cf_key, cf_zone_id } = require(`${process.cwd()}/config.json`)
 const http = require('http')
